@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="430" viewBox="0 0 800 430" role="img"><rect width="800" height="430" rx="18" fill="#fff"/><style>text{font-family:Arial,'Malgun Gothic','Apple SD Gothic Neo',sans-serif;fill:#1f2937}.title{font-size:24px;font-weight:700}.lab{font-size:17px;font-weight:700}.small{font-size:14px}</style><text x="35" y="44" class="title">인공신경망의 기본 구조</text>
+<line x1="138" y1="145" x2="337" y2="110" stroke="#94a3b8" stroke-width="1.5" opacity="0.75"/>
+<line x1="138" y1="145" x2="337" y2="175" stroke="#94a3b8" stroke-width="1.5" opacity="0.75"/>
+<line x1="138" y1="145" x2="337" y2="240" stroke="#94a3b8" stroke-width="1.5" opacity="0.75"/>
+<line x1="138" y1="145" x2="337" y2="305" stroke="#94a3b8" stroke-width="1.5" opacity="0.75"/>
+<line x1="138" y1="220" x2="337" y2="110" stroke="#94a3b8" stroke-width="1.5" opacity="0.75"/>
+<line x1="138" y1="220" x2="337" y2="175" stroke="#94a3b8" stroke-width="1.5" opacity="0.75"/>
+<line x1="138" y1="220" x2="337" y2="240" stroke="#94a3b8" stroke-width="1.5" opacity="0.75"/>
+<line x1="138" y1="220" x2="337" y2="305" stroke="#94a3b8" stroke-width="1.5" opacity="0.75"/>
+<line x1="138" y1="295" x2="337" y2="110" stroke="#94a3b8" stroke-width="1.5" opacity="0.75"/>
+<line x1="138" y1="295" x2="337" y2="175" stroke="#94a3b8" stroke-width="1.5" opacity="0.75"/>
+<line x1="138" y1="295" x2="337" y2="240" stroke="#94a3b8" stroke-width="1.5" opacity="0.75"/>
+<line x1="138" y1="295" x2="337" y2="305" stroke="#94a3b8" stroke-width="1.5" opacity="0.75"/>
+<line x1="373" y1="110" x2="592" y2="145" stroke="#94a3b8" stroke-width="1.5" opacity="0.75"/>
+<line x1="373" y1="110" x2="592" y2="220" stroke="#94a3b8" stroke-width="1.5" opacity="0.75"/>
+<line x1="373" y1="110" x2="592" y2="295" stroke="#94a3b8" stroke-width="1.5" opacity="0.75"/>
+<line x1="373" y1="175" x2="592" y2="145" stroke="#94a3b8" stroke-width="1.5" opacity="0.75"/>
+<line x1="373" y1="175" x2="592" y2="220" stroke="#94a3b8" stroke-width="1.5" opacity="0.75"/>
+<line x1="373" y1="175" x2="592" y2="295" stroke="#94a3b8" stroke-width="1.5" opacity="0.75"/>
+<line x1="373" y1="240" x2="592" y2="145" stroke="#94a3b8" stroke-width="1.5" opacity="0.75"/>
+<line x1="373" y1="240" x2="592" y2="220" stroke="#94a3b8" stroke-width="1.5" opacity="0.75"/>
+<line x1="373" y1="240" x2="592" y2="295" stroke="#94a3b8" stroke-width="1.5" opacity="0.75"/>
+<line x1="373" y1="305" x2="592" y2="145" stroke="#94a3b8" stroke-width="1.5" opacity="0.75"/>
+<line x1="373" y1="305" x2="592" y2="220" stroke="#94a3b8" stroke-width="1.5" opacity="0.75"/>
+<line x1="373" y1="305" x2="592" y2="295" stroke="#94a3b8" stroke-width="1.5" opacity="0.75"/>
+<circle cx="120" cy="145" r="18" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+<circle cx="120" cy="220" r="18" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+<circle cx="120" cy="295" r="18" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+<circle cx="355" cy="110" r="18" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+<circle cx="355" cy="175" r="18" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+<circle cx="355" cy="240" r="18" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+<circle cx="355" cy="305" r="18" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+<circle cx="610" cy="145" r="18" fill="#d1fae5" stroke="#059669" stroke-width="2"/>
+<circle cx="610" cy="220" r="18" fill="#d1fae5" stroke="#059669" stroke-width="2"/>
+<circle cx="610" cy="295" r="18" fill="#d1fae5" stroke="#059669" stroke-width="2"/>
+<text x="120" y="82" text-anchor="middle" class="lab">입력층</text>
+<text x="355" y="68" text-anchor="middle" class="lab">은닉층</text>
+<text x="610" y="82" text-anchor="middle" class="lab">출력층</text>
+<text x="120" y="355" text-anchor="middle" class="small">특성 X</text>
+<text x="355" y="355" text-anchor="middle" class="small">가중합 + 활성화</text>
+<text x="610" y="355" text-anchor="middle" class="small">예측 ŷ</text>
+<text x="35" y="395" class="small">각 연결에는 가중치가 있으며, 학습은 가중치와 편향을 조정하는 과정이다.</text>
+</svg>

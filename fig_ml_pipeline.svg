@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img">
+<rect width="800" height="450" rx="18" fill="#fff"/><style>text{font-family:Arial,'Malgun Gothic','Apple SD Gothic Neo',sans-serif;fill:#1f2937}.title{font-size:24px;font-weight:700}.box{stroke-width:2}.step{font-size:17px;font-weight:700}.sub{font-size:13px}.arrow{stroke:#64748b;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}</style>
+<text x="35" y="45" class="title">머신러닝 프로젝트의 흐름</text>
+<rect x="45" y="90" width="200" height="100" rx="12" fill="#dbeafe" stroke="#60a5fa" class="box"/><text x="145" y="127" text-anchor="middle" class="step">1. 데이터 준비</text><text x="145" y="155" text-anchor="middle" class="sub">수집 · 품질 확인</text>
+<rect x="300" y="90" width="200" height="100" rx="12" fill="#fef3c7" stroke="#f59e0b" class="box"/><text x="400" y="127" text-anchor="middle" class="step">2. 전처리·EDA</text><text x="400" y="155" text-anchor="middle" class="sub">정제 · 시각화 · 특성화</text>
+<rect x="555" y="90" width="200" height="100" rx="12" fill="#d1fae5" stroke="#34d399" class="box"/><text x="655" y="127" text-anchor="middle" class="step">3. 모델 학습</text><text x="655" y="155" text-anchor="middle" class="sub">후보 모델 비교</text>
+<path d="M245 140 H290 M282 132 L290 140 L282 148" class="arrow"/><path d="M500 140 H545 M537 132 L545 140 L537 148" class="arrow"/>
+<rect x="300" y="270" width="200" height="100" rx="12" fill="#ede9fe" stroke="#a78bfa" class="box"/><text x="400" y="307" text-anchor="middle" class="step">4. 검증·평가</text><text x="400" y="335" text-anchor="middle" class="sub">목적에 맞는 지표</text>
+<rect x="555" y="270" width="200" height="100" rx="12" fill="#fce7f3" stroke="#f472b6" class="box"/><text x="655" y="307" text-anchor="middle" class="step">5. 적용·관찰</text><text x="655" y="335" text-anchor="middle" class="sub">성능과 데이터 변화</text>
+<path d="M655 190 V235 H500 V290 M492 282 L500 290 L508 282" class="arrow"/><path d="M500 320 H545 M537 312 L545 320 L537 328" class="arrow"/>
+<path d="M300 320 H265 V220 H400 V200 M392 208 L400 200 L408 208" class="arrow" stroke-dasharray="6 5"/>
+<text x="35" y="416" class="sub">검증 결과가 좋지 않으면 데이터·특성·모델 선택으로 돌아가 개선한다.</text>
+</svg>

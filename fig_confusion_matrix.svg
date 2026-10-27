@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="430" viewBox="0 0 800 430" role="img">
+<rect width="800" height="430" rx="18" fill="#fff"/><style>text{font-family:Arial,'Malgun Gothic','Apple SD Gothic Neo',sans-serif;fill:#1f2937}.title{font-size:24px;font-weight:700}.lab{font-size:17px;font-weight:600}.cell{font-size:22px;font-weight:700}.desc{font-size:14px}</style>
+<text x="38" y="42" class="title">혼동 행렬: 실제 정답과 예측 결과 비교</text>
+<text x="493" y="91" text-anchor="middle" class="lab">모델 예측</text>
+<text x="385" y="124" text-anchor="middle" class="lab">양성(Positive)</text><text x="610" y="124" text-anchor="middle" class="lab">음성(Negative)</text>
+<text x="47" y="270" transform="rotate(-90 47 270)" text-anchor="middle" class="lab">실제 정답</text>
+<text x="150" y="211" text-anchor="middle" class="lab">양성</text><text x="150" y="321" text-anchor="middle" class="lab">음성</text>
+<rect x="235" y="143" width="220" height="98" rx="8" fill="#dcfce7" stroke="#86efac" stroke-width="2"/><rect x="465" y="143" width="220" height="98" rx="8" fill="#fee2e2" stroke="#fca5a5" stroke-width="2"/>
+<rect x="235" y="253" width="220" height="98" rx="8" fill="#ffedd5" stroke="#fdba74" stroke-width="2"/><rect x="465" y="253" width="220" height="98" rx="8" fill="#dbeafe" stroke="#93c5fd" stroke-width="2"/>
+<text x="345" y="181" text-anchor="middle" class="cell">TP</text><text x="345" y="211" text-anchor="middle" class="desc">양성을 맞힘</text><text x="575" y="181" text-anchor="middle" class="cell">FN</text><text x="575" y="211" text-anchor="middle" class="desc">양성을 놓침</text>
+<text x="345" y="291" text-anchor="middle" class="cell">FP</text><text x="345" y="321" text-anchor="middle" class="desc">음성을 양성으로 오판</text><text x="575" y="291" text-anchor="middle" class="cell">TN</text><text x="575" y="321" text-anchor="middle" class="desc">음성을 맞힘</text>
+<text x="38" y="395" class="desc">기억: Recall의 분모는 TP+FN(실제 양성), Precision의 분모는 TP+FP(양성 예측)</text>
+</svg>

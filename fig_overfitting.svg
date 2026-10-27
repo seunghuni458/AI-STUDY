@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440" role="img">
+<rect width="800" height="440" rx="18" fill="#fff"/><style>text{font-family:Arial,'Malgun Gothic','Apple SD Gothic Neo',sans-serif;fill:#1f2937}.title{font-size:24px;font-weight:700}.lab{font-size:16px;font-weight:700}.small{font-size:13px}.axis{stroke:#475569;stroke-width:2}.grid{stroke:#e5e7eb;stroke-width:1}</style>
+<text x="36" y="42" class="title">모델 복잡도와 오차의 관계 (개념도)</text>
+<line x1="95" y1="355" x2="720" y2="355" class="axis"/><line x1="95" y1="355" x2="95" y2="85" class="axis"/>
+<line x1="95" y1="290" x2="720" y2="290" class="grid"/><line x1="95" y1="220" x2="720" y2="220" class="grid"/><line x1="95" y1="150" x2="720" y2="150" class="grid"/>
+<text x="405" y="405" text-anchor="middle" class="lab">모델 복잡도 증가 →</text><text x="28" y="230" transform="rotate(-90 28 230)" text-anchor="middle" class="lab">오차</text>
+<path d="M110 125 C220 185,300 245,390 285 S590 330,700 336" fill="none" stroke="#2563eb" stroke-width="4" stroke-linecap="round"/>
+<path d="M110 125 C205 155,255 230,340 260 S465 240,520 185 S630 120,700 105" fill="none" stroke="#dc2626" stroke-width="4" stroke-linecap="round"/>
+<text x="610" y="348" class="lab" fill="#2563eb">학습 오차</text><text x="610" y="90" class="lab" fill="#dc2626">검증 오차</text>
+<rect x="250" y="275" width="180" height="50" rx="9" fill="#ecfdf5" stroke="#10b981" stroke-width="1.5"/><text x="340" y="296" text-anchor="middle" class="small">균형이 좋은 복잡도</text><text x="340" y="313" text-anchor="middle" class="small">검증 오차가 낮은 구간</text>
+<text x="110" y="385" class="small">과소적합 가능성</text><text x="560" y="385" class="small">과적합 가능성</text>
+<text x="36" y="430" class="small">곡선은 개념 설명용이며 실제 측정 데이터가 아니다.</text>
+</svg>
